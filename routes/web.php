@@ -13,4 +13,4 @@
 
 Route::get('/', function () {
     return view('app');
-});
+})->name('home');

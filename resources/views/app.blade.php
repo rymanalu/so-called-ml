@@ -50,7 +50,7 @@
                 <section class="sidebar">
                     <ul class="sidebar-menu" data-widget="tree">
                         <li>
-                            <a href="/">
+                            <a href="{{ route('home') }}">
                                 <i class="fa fa-home"></i> <span>Home</span>
                             </a>
                         </li>
