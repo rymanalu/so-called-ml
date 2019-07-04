@@ -7,7 +7,6 @@ class Education
     const GRADUATE_SCHOOL = 1;
     const UNIVERSITY = 2;
     const HIGH_SCHOOL = 3;
-    const OTHERS = 4;
 
     public static function all()
     {
@@ -15,7 +14,6 @@ class Education
             static::GRADUATE_SCHOOL => 'Graduate School',
             static::UNIVERSITY => 'University',
             static::HIGH_SCHOOL => 'High School',
-            static::OTHERS => 'Others',
         ];
     }
 
@@ -27,6 +25,6 @@ class Education
             return $all[$code];
         }
 
-        return static::OTHERS;
+        return '';
     }
 }
