@@ -2,7 +2,7 @@
 
 namespace App;
 
-class MaritalStatus
+final class MaritalStatus
 {
     const MARRIED = 1;
     const SINGLE = 2;

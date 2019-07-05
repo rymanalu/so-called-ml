@@ -2,7 +2,7 @@
 
 namespace App;
 
-class Education
+final class Education
 {
     const GRADUATE_SCHOOL = 1;
     const UNIVERSITY = 2;

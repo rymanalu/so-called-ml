@@ -27,7 +27,7 @@
     <body class="hold-transition skin-blue sidebar-mini">
         <div class="wrapper">
             <header class="main-header">
-                <a href="#" class="logo">
+                <a href="{{ route('home') }}" class="logo">
                     <span class="logo-mini">
                         <b>{{ config('app.initial_name') }}</b>
                     </span>
@@ -50,8 +50,8 @@
                 <section class="sidebar">
                     <ul class="sidebar-menu" data-widget="tree">
                         <li>
-                            <a href="{{ route('home') }}">
-                                <i class="fa fa-home"></i> <span>Home</span>
+                            <a href="{{ route('data:index') }}">
+                                <i class="fa fa-database fa-fw"></i> <span>Data</span>
                             </a>
                         </li>
                     </ul>
@@ -69,5 +69,6 @@
 
         <script type="text/javascript" src="{{ mix('js/admin-lte.js') }}"></script>
         <script type="text/javascript" src="{{ mix('js/app.js') }}"></script>
+        @stack('scripts')
     </body>
 </html>

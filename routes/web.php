@@ -11,6 +11,9 @@
 |
 */
 
-Route::get('/', function () {
-    return view('app');
-})->name('home');
+Route::get('/', 'HomeController@index')->name('home');
+
+Route::prefix('data')->name('data:')->group(function () {
+    Route::get('/', 'DataController@index')->name('index');
+    Route::get('/datatables', 'DataController@datatables')->name('datatables');
+});
