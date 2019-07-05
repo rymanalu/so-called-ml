@@ -39,7 +39,7 @@
             (function () {
                 var columns = [
                     {data: 'id', name: 'id'},
-                    {data: 'limit_balance_ntd', name: 'limit_balance', style: 'text-align: right;'},
+                    {data: 'limit_balance_ntd', name: 'limit_balance', class: 'text-right'},
                     {data: 'sex_name', name: 'sex', searchable: false},
                     {data: 'education_name', name: 'education', searchable: false},
                     {data: 'marital_status_name', name: 'marital_status', searchable: false},
