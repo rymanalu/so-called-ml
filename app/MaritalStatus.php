@@ -12,8 +12,8 @@ final class MaritalStatus
     {
         return [
             static::MARRIED => 'Married',
-            static::SINGLE => 'Single',
             static::OTHERS => 'Others',
+            static::SINGLE => 'Single',
         ];
     }
 

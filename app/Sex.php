@@ -15,10 +15,8 @@ final class Sex
     public static function all()
     {
         return [
-            static::NOT_KNOWN => 'Not Known',
-            static::MALE => 'Male',
             static::FEMALE => 'Female',
-            static::NOT_APPLICABLE => 'Not Applicable',
+            static::MALE => 'Male',
         ];
     }
 

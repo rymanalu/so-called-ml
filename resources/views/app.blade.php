@@ -60,6 +60,12 @@
                                 <i class="fa fa-tree fa-fw"></i> <span>Tree</span>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="{{ route('test:index') }}">
+                                <i class="fa fa-cogs fa-fw"></i> <span>Test</span>
+                            </a>
+                        </li>
                     </ul>
                 </section>
             </aside>

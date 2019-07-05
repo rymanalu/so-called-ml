@@ -12,8 +12,8 @@ final class Education
     {
         return [
             static::GRADUATE_SCHOOL => 'Graduate School',
-            static::UNIVERSITY => 'University',
             static::HIGH_SCHOOL => 'High School',
+            static::UNIVERSITY => 'University',
         ];
     }
 

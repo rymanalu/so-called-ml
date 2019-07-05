@@ -22,3 +22,8 @@ Route::prefix('data')->name('data:')->group(function () {
 Route::prefix('tree')->name('tree:')->group(function () {
     Route::get('/', 'TreeController@index')->name('index');
 });
+
+Route::prefix('test')->name('test:')->group(function () {
+    Route::get('/', 'TestController@index')->name('index');
+    Route::post('/', 'TestController@test')->name('test');
+});

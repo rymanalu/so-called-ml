@@ -6,13 +6,17 @@
     </section>
 
     <section class="content">
-        <div class="box box-primary" id="table-box">
-            <div class="box-header">
-                <h3 class="box-title">Tree</h3>
-            </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box box-primary" id="table-box">
+                    <div class="box-header">
+                        <h3 class="box-title">Tree</h3>
+                    </div>
 
-            <div class="box-body">
-                <pre>{{ $tree }}</pre>
+                    <div class="box-body">
+                        <pre>{{ $tree }}</pre>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

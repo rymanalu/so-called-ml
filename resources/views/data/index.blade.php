@@ -6,28 +6,32 @@
     </section>
 
     <section class="content">
-        <div class="box box-primary" id="table-box">
-            <div class="box-header">
-                <h3 class="box-title">Data</h3>
-            </div>
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="box box-primary" id="table-box">
+                    <div class="box-header">
+                        <h3 class="box-title">Data</h3>
+                    </div>
 
-            <div class="box-body">
-                <table id="datatable" class="table table-bordered table-hover" width="100%">
-                    <thead>
-                        <tr>
-                            <th>ID</th>
-                            <th>Limit Balance (NT$)</th>
-                            <th>Sex</th>
-                            <th>Education</th>
-                            <th>Marital Status</th>
-                            <th>Age</th>
-                            @for ($i = 1; $i <= 6; $i++)
-                                <th>Pay {{ $i }}</th>
-                            @endfor
-                            <th>Next Month Default?</th>
-                        </tr>
-                    </thead>
-                </table>
+                    <div class="box-body">
+                        <table id="datatable" class="table table-bordered table-hover" width="100%">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Limit Balance (NT$)</th>
+                                    <th>Sex</th>
+                                    <th>Education</th>
+                                    <th>Marital Status</th>
+                                    <th>Age</th>
+                                    @for ($i = 1; $i <= 6; $i++)
+                                        <th>Pay #{{ $i }}</th>
+                                    @endfor
+                                    <th>Next Month Default?</th>
+                                </tr>
+                            </thead>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
