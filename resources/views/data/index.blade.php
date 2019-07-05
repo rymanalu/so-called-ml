@@ -9,9 +9,6 @@
         <div class="box box-primary" id="table-box">
             <div class="box-header">
                 <h3 class="box-title">Data</h3>
-                <div class="pull-right">
-                    <a href="{{ route('data:train') }}" class="btn btn-primary" title="Train" id="train-button"><i class="fa fa-refresh"></i></a>
-                </div>
             </div>
 
             <div class="box-body">
@@ -60,10 +57,6 @@
                     columns: columns
                 });
             })();
-
-            $('#train-button').click(function () {
-                $('#table-box').append('<div class="overlay"><i class="fa fa-refresh fa-spin"></i></div>');
-            });
         });
     </script>
 @endpush

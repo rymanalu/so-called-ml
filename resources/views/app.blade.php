@@ -54,6 +54,12 @@
                                 <i class="fa fa-database fa-fw"></i> <span>Data</span>
                             </a>
                         </li>
+
+                        <li>
+                            <a href="{{ route('tree:index') }}">
+                                <i class="fa fa-tree fa-fw"></i> <span>Tree</span>
+                            </a>
+                        </li>
                     </ul>
                 </section>
             </aside>

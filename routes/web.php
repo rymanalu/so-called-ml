@@ -18,3 +18,7 @@ Route::prefix('data')->name('data:')->group(function () {
     Route::get('/datatables', 'DataController@datatables')->name('datatables');
     Route::get('/train', 'DataController@train')->name('train');
 });
+
+Route::prefix('tree')->name('tree:')->group(function () {
+    Route::get('/', 'TreeController@index')->name('index');
+});
